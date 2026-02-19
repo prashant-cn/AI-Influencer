@@ -196,15 +196,16 @@ if __name__ == "__main__":
     HANDLES = [
         # "your_shreyarao",
         # "stephanieh.be",
-        "itsbabytana",
+        # "itsbabytana",
         # "its_saahana"
         # "ale_kost",
+        "financewithanubhav_",
         # "rubytakesyourheart"
     ]
 
     downloader = InstagramReelDownloader(
         handles=HANDLES,
-        date_limit="20240101"
+        date_limit="20260101"
     )
 
     downloader.run()
